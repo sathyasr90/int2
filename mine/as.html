@@ -1,0 +1,141 @@
+<doctype html>
+<head>
+<link rel="stylesheet" style="text/css" href="css\new 1.css" />
+</head>
+
+<body>
+<div id="fullpage">
+
+<div id="mainpage">
+<div id="top">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+<div id="logo">
+<img src="photo\logo.jpg" />
+<h4>Contact us:9876543210</h4>
+<h4>abc@gmail.com</h4>
+</div>
+<div id="menu">
+<ul>
+<li><a href="#">product</a></li>
+<li>services<ul>
+
+<li><a href="#">web designe</a></li>
+<li><a href="#">app development</a></li>
+<li><a href="#">seo</a></li>
+</ul>
+</li>
+<li><a href="#">gallery</a></li>
+<li><a href="#">technology</a></li>
+<li><a href="#">tutorial</a></li>
+</ul>
+</div>
+<div id="slider">
+<img class="slides" src="photo\web.jpg" />
+<img class="slides" src="photo\app.png" />
+<img class="slides" src="photo\tu.jpg" />
+<button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094;</button>
+<button  class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+</div>
+
+   <div id="content1">
+   <h3>Web Designing</h3>
+   <p>
+We are Best Web Designing Company in Chennai, unique designers and technical specialists offering a broad range of professional services. Our professional Web Designing and Development team co-ordinate with the clients.</P>
+   </div>
+   <div id="content2">
+   <h3>Android Application</h3>
+   <p>
+Our expert Android developers deliver innovative custom solutions of any size or complexity, ranging from standalone applications to large solutions requiring integration with enterprise back-end systems. </p>
+     </div>
+	  <div id="content3">
+	<h3>Tutorial</h3>
+	<p>Our SEO Processes are designed in view of the Google SEO guidelines, and white hat SEO techniques are strictly followed to ensure that our clients from world over get the best SEO services. </p>
+	
+   </div>
+   <div id="bo"></div>
+   <div id="bottom">
+   <h2>Enquiery</h2>
+   <form>
+ <h3>Name           : <input type="text" name="name"></h3>
+  <h3>Number      :  <input type="number" name="no"></h3>
+   <h3>Email         :  <input type="email" name="email"></h3>
+    <h3>Comments:  <input type="textarea" rows="30" cols="30" name="comments"></h3>
+	<button type="submit" name="submit" value="submit"></button>
+	</form>
+</div>
+
+   <div id="bottom1">
+   </div>
+
+ <div id="bottom2">
+   </div>
+
+
+ <div id="bottom3">
+   </div>
+
+
+
+</div>
+</div>
+<script>
+ var index=1;
+  showImage(index);
+ 
+ function plusIndex(n)
+ {
+ 
+ showImage(index +=n);
+
+ 
+ } 
+
+  function showImage(n)
+  {
+  var i;
+   var x = document.getElementsByClassName("slides");
+   
+   if(n>x.length)
+   {
+   index=1;
+   }
+   if(n<1)
+   {
+   index=x.length; 
+   }
+   for(i=0;i<x.length;i++)
+   {
+   x[i].style.display="none";
+   }
+   x[index-1].style.display= "block";
+   }
+ 
+   autoSlide();
+   
+   function autoSlide()
+   {
+   var i;
+   var x = document.getElementsByClassName("slides");
+   
+   for(i=0;i<x.length;i++)
+   {
+   x[i].style.display="none";
+   }
+    if(index>x.length)
+   {
+   index=1;
+   }
+   x[index-1].style.display= "block";
+  
+   setTimeout(autoSlide , 2000);
+    index++;
+	}
+   </script>
+</body>
+
+</html>
