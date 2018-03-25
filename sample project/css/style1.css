@@ -1,0 +1,604 @@
+﻿.top-bar
+{
+	padding:-20px;
+}
+.navbar{
+	background-color:#0f75bc!important;
+}
+.navbar  .sidemenu i
+{
+
+	color:white;
+	margin-right:10px;
+    font-size:25px;
+}
+.navbar .sidemenu .nav a
+{
+	color:white;
+}
+.navbar .menu1 .nav
+{
+	margin-left:10px;
+    margin-right: 20px;
+}
+.navbar .menu1 .nav i
+{
+	background-color:white;
+	color:black;
+	 border-radius:50%;
+	 margin-right:-15px;
+   
+}
+.navbar .menu 
+{
+margin-right:250px;	
+}
+.navbar .menu kbd
+{
+	background-color:white;
+    color:blue;
+    padding:10px;
+}
+
+.navbar .menu .nav a
+{
+	color:white;
+}
+
+
+.header-bottom a
+
+{
+ color:black!important;	
+ font-size:20px;
+}
+.header-bottom i
+{
+	background-color:white;
+	color:black;
+	 border-radius:50%;
+	 margin-top:15px;
+     font-size:25px;
+}
+.header-bottom .navbar
+{
+    background-color:white!important;
+	margin-top:-20px;
+}
+.header-bottom .navbar img
+{
+	
+}
+
+
+.header
+{
+	background-color:#0d67a5!important;
+	padding:20px;
+	margin-top:-20px;
+}
+.header  i
+{
+     height:80px;
+     width:80px;
+	 background-color:white;
+	 color:black;
+     border-radius:50%;
+     padding:25px 20px;
+     font-size:35px;
+     text-align:center;
+     margin-right:10px;
+}
+.header p
+{
+	color:white;
+}
+
+.imgcontent img
+{
+	width:95%;
+    margin-left: 15px;
+}
+.content1 .con1
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content1 h2
+{
+    margin-top:80px;
+	text-align:center;
+	color:#6475bc;
+}
+
+.content1 h1
+{
+    font-size:80px;
+	text-align:center;
+	color:black;
+}
+.content1 p
+{
+    font-size:20px;
+}
+.leftpan 
+{
+    float:right;
+    
+}
+.content2 p
+{
+    text-align: center;
+    font-size: 20px;
+}
+.content2 h1
+{
+    text-align: center;
+    color:blue;
+}
+.content2 h3
+{
+    text-align: center;
+    
+}
+.content2 img
+{
+    height: 700px;
+    width:80%;
+    margin-left: 150px;
+}
+.content3
+{ 
+    height: 700px;
+    width:100%;
+    background-image: url(../images/bi1.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.content3 p
+{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+.content3 h1
+{
+    text-align: center;
+    color:white;
+    
+}
+.content3 .ab h3
+{
+    text-align: center;
+    color:white;
+    
+}
+
+.content3 .ab img
+{
+    margin-left: 120px;
+    height: 110px;
+    width: 110px;
+}
+.content4
+{
+    height: 400px;
+    width:100%;
+    background-color: #54569b;
+
+}
+.content4 h1,h3
+{
+    text-align: center;
+    color:white;
+}
+.content4 .bt1
+{
+    margin-left: 30px;
+    text-align: center;
+    border:1 px solid black;
+}
+.content4 .bt1 .btn
+{
+    margin-left: 80px;
+}
+.content5
+{
+    background-image: url(../images/bi1.jpg);
+    height: 750px;
+    width:100%;
+}
+.content5 h1
+{   
+    font-size: 50px;
+    color:#0f75bc;
+    margin-left: 50px;
+}
+.content5 p,h3
+{
+    color:white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.content5 .btn
+{
+    
+    margin-left: 50px;
+}
+.content6
+{
+    background-image: url(../images/bi3.jpg);
+     background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    width:100%;
+}
+.content6 h1
+{
+    text-align: center;
+    color:#0f75bc;
+    font-size: 50PX;
+}
+.content6 h3
+{
+    text-align: center;
+    color:black;
+}
+.content6 p
+{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.content6 .btn
+{
+    text-align: center;
+    margin-left: 700px;
+    
+}
+.content7
+{
+    background-image: url(../images/bi4.jpg);
+     background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 950px;
+    width:100%;
+}
+.content7 h1
+{
+    text-align: right;
+    color:#0f75bc;
+}
+.content7 p
+{
+    text-align: right;
+    color:white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.content7 a
+{
+    
+    color:#0f75bc;
+    margin-left:300px;
+     font-size: 20px;
+}
+.content7 .ab
+{
+    text-align: center;
+    color:white;
+}
+.content8 img
+{
+    margin-top: -200px;
+     margin-left:370px;
+}
+.content8 h1
+{
+    text-align: center;
+    color: blue;
+    font-size: 70px;
+}
+.content8 p
+{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.content8 .btn
+{
+    margin-left: 20px;
+    text-align: center;
+     margin-left:700px;
+}
+.content10 h1
+{
+ margin-left: 50px; 
+    color: #0f75bc;
+    font-size: 50px;
+}
+.content10 p
+{
+     margin-left: 50px; 
+    font-size:22px;
+    color: #777777;
+}
+.content10 .btn
+{
+     margin-left: 50px; 
+     
+}
+.content10 img
+{
+    margin-top: 25px;
+     
+}
+.content11 .lef
+{
+    margin-right: -28px;
+}
+.content11 h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+.content11 h2
+{
+    text-align: center;
+    color: blue;
+}
+.content11 p
+{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content12 
+{
+  background-image: url(../images/bi5.jpg);
+     background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 700px;
+    width:100%;  
+}
+
+.content12 h1
+{
+    color:blue;
+    text-align: center;
+}
+
+.content12 p
+{
+     color:white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.content13 h1
+{
+    color:blue;
+    text-align: center;
+    font-size: 50px;
+}
+.content13 h2
+{
+    color:blue;
+    text-align: center;
+}
+
+.content13 p
+{
+     color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.content14 h1
+{
+    color:blue;
+    text-align: center;
+}
+
+.content14 p
+{
+     color:white;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.content14 .btn
+{
+    margin-left: 45px;
+    color:blue
+}
+.content14 img
+{
+    margin-right: 20px;
+    height: 500px;
+    width:650px;
+}
+.content14
+{
+    background-color: black;
+}
+.content15 h1
+{
+    color:blue;
+    text-align: center;
+    font-size: 70px;
+}
+.content15 h3
+{
+    color:blue;
+    text-align: left;
+     font-size: 40px;
+}
+
+.content15 p
+{
+     color:black;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.content15 img
+{
+    margin-right: 20px;
+    height: 500px;
+    width:650px;
+}
+.content16 p
+{
+    font-size:20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.content16 h1
+{
+    font-size: 45px;
+    text-align: left;
+     margin-left: 25px;
+    margin-right: 25px;
+
+}
+.content16 h3
+{
+    color:blue;
+    text-align: left;
+    font-size: 30px;
+}
+.content17 .resize
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content17 .panel
+{
+    border:0.5px solid gray;
+}
+.content17 img
+{
+    height: 150px;
+    width: 290px;
+
+}
+.content17 h1
+{
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    
+
+}
+.content17 h2
+{
+    font-size: 50px;
+    color: black;
+     text-transform: capitalize;
+    
+
+}
+.content17 h3
+{
+    
+    color: blue;
+    text-align: left;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+.content17 a
+{
+   
+    color: gray;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+.content17 p
+{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+}
+.content17 ul li a
+{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border: none;
+
+}
+.content18
+{
+  background-image: url(../images/bi6.png);
+     background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;  
+}
+.content18 h3
+{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.content18 p
+{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 80px;
+    
+}
+.content18 i
+{
+    color: white;
+    margin-left: 220px;
+    font-size: 30px;
+
+    
+}
+.content18 h4
+{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.con18
+{
+    text-align: left;
+    margin-left: 10px;
+    
+}
+.footer
+{
+    background-color: dimgray;
+    height: 80px;
+}
+.footer p
+{
+    color: beige;
+    font-size: 20px;
+    margin-left: 30px;
+}
